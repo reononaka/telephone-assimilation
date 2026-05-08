@@ -312,14 +312,14 @@ write_csv(table2_cont, "table2_continuous.csv")
 p_income_cont <- plot_event_study(
   coef_income_cont,
   "Effect of Origin-Country Telephone Access on Log Income (Continuous)",
-  "Coefficient Estimate per 1 SD of Phone Rate (Log Points)",
+  "Coefficient Estimate per 1 SD\nof Phone Rate (Log Points)",
   "result1_cont.png"
 )
 
 p_english_cont <- plot_event_study(
   coef_english_cont,
   "Effect of Origin-Country Telephone Access on English Proficiency (Continuous)",
-  "Coefficient Estimate per 1 SD of Phone Rate (Percentage Points)",
+  "Coefficient Estimate per 1 SD\nof Phone Rate (Percentage Points)",
   "result2_cont.png"
 )
 
